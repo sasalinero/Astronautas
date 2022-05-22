@@ -3,7 +3,7 @@
 <p align="center"><img  src="https://media.giphy.com/media/QkvZ6wHYIV2e7FS2cb/giphy.gif" alt="gif" /></p>
 
 
-Esta es una pequeña y divertida práctica de POO con TypeScript y Node.js
+Esta es una pequeña y divertida práctica de POO con **TypeScript y Node.js**
 
 Queda poco para el lanzamiento de la nave espacial :rocket: **AstroLuz** :rocket: con destino Marte :milky_way:. 
 
