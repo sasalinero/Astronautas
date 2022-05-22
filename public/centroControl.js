@@ -8,19 +8,17 @@ class CentroControl {
         this._ordenador = ordenador;
     }
     prepararDespegue() {
-        return this.astronauta.preparar();
-    }
-    encenderOrdenador() {
-        return this._ordenador.comprobar();
-    }
-    comprobarNumeroSerie() {
+        this._astronauta.preparar();
+        this._ordenador.comprobar();
         console.log(`Comprobando el numero de serie de la nave ${this.nave._nombre}...NºSerie: ${this.nave._numeroSerie}`);
-    }
-    girarGradosNave() {
-        return this.nave.girarGrados();
+        this.nave.girarGrados();
     }
     comenzarPaseo() {
-        return this.nave.paseo();
+        this.nave.paseo();
+        this.astronauta.info();
+    }
+    prepararAterrizaje() {
+        this.nave.vuelta();
     }
     get nave() {
         return this._nave;

@@ -21,5 +21,8 @@ export class Nave {
      paseo(){
         console.log(`Comenzamos el paseo por el planeta Marte`)
      }
+     vuelta(){
+         console.log(`Preparando aterrizaje`)
+     }
 
 }

@@ -15,20 +15,19 @@ export class CentroControl{
     }
     
     prepararDespegue(){
-        return this.astronauta.preparar()
+       this._astronauta.preparar() 
+       this._ordenador.comprobar()
+       console.log(`Comprobando el numero de serie de la nave ${this.nave._nombre}...NºSerie: ${this.nave._numeroSerie}`)
+       this.nave.girarGrados()
     }
-    encenderOrdenador(){
-        return this._ordenador.comprobar()
-    }
-    comprobarNumeroSerie(){
-        console.log(`Comprobando el numero de serie de la nave ${this.nave._nombre}...NºSerie: ${this.nave._numeroSerie}`)
-       
-    }
-    girarGradosNave(){
-     return this.nave.girarGrados()
-    }
+        
     comenzarPaseo(){
-     return this.nave.paseo()
+    this.nave.paseo()
+    this.astronauta.info()
+    }
+  
+    prepararAterrizaje(){
+        this.nave.vuelta()
     }
 
     get nave(){

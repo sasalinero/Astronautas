@@ -18,6 +18,9 @@ class Nave {
     paseo() {
         console.log(`Comenzamos el paseo por el planeta Marte`);
     }
+    vuelta() {
+        console.log(`Preparando aterrizaje`);
+    }
 }
 exports.Nave = Nave;
 //# sourceMappingURL=nave.js.map

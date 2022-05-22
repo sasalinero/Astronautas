@@ -1,1 +1,1 @@
-{"version":3,"file":"ordenadorCentral.js","sourceRoot":"","sources":["../src/ordenadorCentral.ts"],"names":[],"mappings":";;;AAAA,MAAa,gBAAgB;IAEzB,SAAS;QACL,OAAO,CAAC,GAAG,CAAC,qCAAqC,CAAC,CAAA;IACtD,CAAC;CACJ;AALD,4CAKC"}
+{"version":3,"file":"ordenadorCentral.js","sourceRoot":"","sources":["../src/ordenadorCentral.ts"],"names":[],"mappings":";;;AAAA,MAAa,gBAAgB;IAEzB,SAAS;QACL,OAAO,CAAC,GAAG,CAAC,qCAAqC,CAAC,CAAA;IACtD,CAAC;CAEJ;AAND,4CAMC"}
